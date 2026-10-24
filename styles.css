@@ -1,0 +1,231 @@
+* {                     /*applies to everything */
+    font-family: Roboto, sans-serif;
+
+}
+
+.header-container {  /* main header styling consisting of header-container and container 2 */
+    background-color: #1F2937;
+    color:#F9FAF8;
+    width: 100%;
+    height: 450px;
+   
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            /* Centers them perfectly vertically */
+    width: 100%;
+    padding: 0 0 30px 0;               
+}
+.logo {
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 10px;                      /* Adds space between links */
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.nav-links a {
+    color: E5E7EB;
+    text-decoration: none;
+    
+}
+
+.container-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.containerA {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-right: 30px;
+}
+
+.container-two img {
+    display: flex;
+    justify-items: center;
+    height: 250px;
+    width: 600px;
+}
+
+.containerA h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.containerA p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding-bottom: 15px;
+
+}
+
+.containerA button, .invert-button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+}
+
+/*End main header styling */
+
+/*section 2 styling consisting of container three*/
+
+.container-three {
+    height: 450px;
+    justify-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 50px;
+    
+}
+
+.container-three h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+ }
+
+ figure {
+    margin: 0;
+ }
+
+ .c3list {  /*containter holding all 4 pictures */
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+ }
+
+ .image-row {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+ }
+
+ .image-row img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+ }
+
+ .image-row figcaption {
+    width: 80%;
+    margin-top: 8px;
+ }
+/*end section 2 styling */
+
+/*section 3 styling consists of container four*/
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 450px;
+}
+
+.container-four .quote {
+    margin-right: 50px;
+    margin-left: 150px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 100px;
+
+}
+
+.container-four .speaker {
+    margin-right: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+/* end of section 3 styling */
+
+/*start of last section styling */
+
+.container-five {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.call-to-action {  /*blue box */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: flex;
+    background-color: #3882F6;
+    color: white;
+    height: 175px;
+    width: 80%;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: 75px;
+
+}
+
+.words {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.action {
+    font-size: 26px;
+    font-weight: 900;
+    
+}
+
+.words p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.invert-button {
+    color: white;
+    border: 2px solid white;
+}
+ /*end of section 4 styling */
+
+ /*footer styling */
+
+ footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ }
